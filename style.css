@@ -1,0 +1,47 @@
+body {background: rgb(39, 134, 25); text-transform: capitalize;
+text-align: justify;
+font-size: 1.1em; font-family: "Times new roman", serif; color: whiteuy;}
+
+#title {color: rgb(10, 253, 40); font-weight: 800;}
+
+.subtitle {color: rgb(159, 194, 210)}
+.para-text {text-decoration: underline;}
+
+#service-image { height: 300px; width: 700px;/* background-color: blue;*/
+	background: radial-gradient(circle, red 40%, blue 70%, yellow 23%, green 124%); 
+	border: 10px solid;}
+
+.link {text-decoration: line-through;}
+
+
+.italic { font-style: italic; }
+
+#cars-img { height: 250px; width: 60%; border:11px double rgb(10, 253, 40); 
+	margin: 30px 20px; padding: 10px 5px 15px 0; float: right;}
+
+
+.container {background-color: grey; margin: 20px; height: 300px; display: flex; 
+	flex-direction: row; justify-content: space-around; align-items:center;}
+
+.container-item {background-color: rgb(11, 124, 120); color: black; font-size: 25px; 
+	text-align: center; width: 70px; 
+	line-height: 50px; margin: 10px;}
+
+.grid-container { background-color: white; margin: 10px; height: 300px; display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto; }
+
+.grid-item {background: black; margin: 10px; width: 70px; font-size: 25px; text-align: center; 
+line-height: 40px;}
+
+#animation { /*animation-name: red-to-black; animation-duration: 4s;
+animation-timing-function: ease; animation-delay: 2s; */
+
+-webkit-animation: red-to-black 4s ease 0s alternate-reverse;
+-moz-animation: red-to-black 4s ease 0s alternate-reverse;
+-ms-animation: red-to-black 4s ease 0s alternate-reverse;
+-o-animation: red-to-black 4s ease 0s alternate-reverse; }
+
+@keyframes red-to-black {0% {background: red; transform: translate(0px, 0px);}
+50% {background: yellow; transform: translate(10px, 10px);}
+100% {background: black; transform: translate(20px, 20px);}}
